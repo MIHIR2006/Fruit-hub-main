@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#navbarNav > ul > li > a {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.main-img {
+  padding-bottom: 200px;
+  background-image: url(/public/IMG/blueberry.jpg) !important;
+  background-size: cover;
+  background-position: center;
+}
+.main-part {
+  /* margin-top: 50px; */
+  padding-top: 50px;
+}
+
+.main-part > p {
+  color: black;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.main-part > h2 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.btn1-part1 {
+  padding: 0.8rem 1.4rem;
+  background-color: transparent;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  border: solid 2px rgb(255, 165, 0);
+  border-radius: 1.8rem;
+}
+.btn2-part1 {
+  padding: 0.8rem 1.4rem;
+  background-color: transparent;
+  font-weight: 700;
+  color: white;
+  border: solid 2px orange;
+  border-radius: 1.8rem;
+}
+.btn1-part1:hover {
+  background-color: orange;
+  color: black;
+}
+.btn2-part1:hover {
+  background-color: orange;
+  color: black;
+}
+.media > i {
+  font-size: 2rem;
+  color: orange;
+}
+
+.card-button > button {
+  padding: 0.5rem 2rem;
+  border-radius: 1.2rem;
+  font-weight: 700;
+  border: 2px solid orange;
+}
+.card-button > p {
+  color: orange;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.card-button > button:hover {
+  background-color: orange;
+}
+.buy-button {
+  color: black;
+  padding: 0.5rem 2rem;
+  border-radius: 1.2rem;
+  font-weight: 700;
+  border: 2px solid orange;
+}
+.buy-button:hover {
+  background-color: orange;
+}
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.main-img2 {
+  padding-bottom: 200px;
+  background-image: url(/public/IMG/Part-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ad-part p {
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#navbarNav > ul > li > a {
+  color: white;
+}
+
+.text-style > ul > li > a {
+  color: white !important;
+}
+
+.text-style > ul > li > a:hover {
+  color: orange !important;
+}
+
+#navbarNav > ul > li > a:hover {
+  color: orange;
+}
+
+.list-unstyled > li a {
+  text-decoration: none;
+  color:white;
+}
+.list-unstyled > li a:hover {
+  color: orange;
+}
+
+.social-icons > a {
+  color: white;
+}
+.social-icons > a:hover {
+  color: orange !important ;
+}
+.nav-logo{
+  height: 30px;
+}
+@media screen and (max-width: 992px) {
+  .img-margin > img {
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 764px) {
+  .img-margin > img {
+    margin-left: 0px;
+  }
+  /* width="70%" height="30" */
+  .nav-logo{
+      height: 20px;
+  }
+}
+@media screen and (max-width: 995px) {
+  .footer_logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card > img {
+    height: 500px !important;
+  }
+  .card-data > img {
+    height: 350px !important;
+  }
+}
+
+/* About Page */
+
+.About-part > p {
+  color: black;
+  font-weight: 400;
+  letter-spacing: 7px;
+  font-size: 0.9rem;
+}
+.About-part > h2 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.list-icon > i {
+  font-size: 2rem;
+  color: orange;
+}
+.card-body > h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}
+.card-body > i {
+  font-size: 1.2rem;
+}
+.icone-text > p {
+  font-size: 0.8rem;
+}
+
+/* Contact page */
+
+.btnc-partc {
+  padding: 0.5rem 1.4rem;
+  background-color: transparent;
+  font-weight: 700;
+  border: solid 2px white;
+}
+
+.btnc-partc:hover {
+  background-color: black;
+  color: white;
+}
