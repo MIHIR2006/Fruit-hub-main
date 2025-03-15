@@ -1,5 +1,11 @@
 # Fruit-hub-main
 
+
+## Tech Stack
+
+[![Tech Stack](https://skillicons.dev/icons?i=nodejs,react)](https://skillicons.dev)
+
+
 ## How to Run
 
 
